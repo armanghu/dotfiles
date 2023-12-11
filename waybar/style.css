@@ -1,0 +1,129 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#clock,
+#cpu,
+#memory,
+#language,
+#workspaces,
+#network,
+#bluetooth,
+#battery,
+#pulseaudio,
+#tray,
+#backlight
+{
+    background: #1e1e2e;
+    opacity: 0.8;
+    padding: 0px 10px;
+    margin-top: 10px;
+    color: #E85D04;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: #313244;
+    background: #1e1e2e;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+#workspaces button.active { color: #a6adc8; }
+
+#workspaces button.focused { color: #a6adc8; }
+
+#workspaces button.urgent { color: #a6e3a1; }
+
+#workspaces button:hover { color: #cdd6f4; }
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#workspaces {
+    background: #1e1e2e;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#clock {
+    color: #fab387;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    border-right: 0px;
+}
+
+#network {
+    color: #f9e2af;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#bluetooth {
+    color: #89b4fa;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px
+} 
+
+#pulseaudio {
+    color: #89b4fa;
+    border-radius: 0px;
+}
+
+#pulseaudio.microphone {
+    color: #e100ff;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+#battery {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#battery.good { color: #0000ff; }
+
+#battery.warning { color: #992c06; }
+
+#battery.charging { color: #00ff00 }
+
+#battery.plugged { color: #00ff00 }
+
+#cpu {
+    color: #fe7846;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 10px;
+}
+
+#memory {
+    color: #a6de45;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#language{
+    color: #a6e3a1;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
