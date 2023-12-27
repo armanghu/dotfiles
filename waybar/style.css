@@ -98,8 +98,7 @@ tooltip {
 }
 
 #battery {
-    border-radius: 10px;
-    margin-right: 10px;
+    border-radius: 0px;
 }
 
 #battery.good { color: #0000ff; }

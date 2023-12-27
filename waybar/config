@@ -8,7 +8,7 @@
     "height": 30,
     "modules-left": ["clock","cpu", "memory","hyprland/language"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network", "bluetooth","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
+    "modules-right": ["network", "bluetooth","backlight","battery","pulseaudio","pulseaudio#microphone","tray"],
 
     "clock": {
         "format": " {:%H:%M:%S}",
