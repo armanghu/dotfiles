@@ -11,10 +11,8 @@ window#waybar {
 
 tooltip {
     background: #1e1e2e;
+    border: 2px solid #11111b;
     border-radius: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #11111b;
 }
 
 #clock,
@@ -91,8 +89,6 @@ tooltip {
 
 #pulseaudio.microphone {
     color: #e100ff;
-    border-left: 0px;
-    border-right: 0px;
     border-radius: 0px 10px 10px 0px;
     margin-right: 10px;
 }
