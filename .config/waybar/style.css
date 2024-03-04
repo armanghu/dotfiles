@@ -43,12 +43,8 @@ tooltip {
     border-radius: 10px;
 }
 
-#workspaces button.active { color: #a6adc8; }
-
-#workspaces button.focused { color: #a6adc8; }
-
+#workspaces button.active, #workspaces button.focused  { color: #a6adc8; }
 #workspaces button.urgent { color: #a6e3a1; }
-
 #workspaces button:hover { color: #cdd6f4; }
 
 #tray {
@@ -98,12 +94,8 @@ tooltip {
 }
 
 #battery.good { color: #0000ff; }
-
 #battery.warning { color: #992c06; }
-
-#battery.charging { color: #00ff00 }
-
-#battery.plugged { color: #00ff00 }
+#battery.charging, #battery.plugged { color: #00ff00 }
 
 #cpu {
     color: #fe7846;
@@ -120,5 +112,5 @@ tooltip {
     color: #a6e3a1;
     border-radius: 10px;
     margin-left: 10px;
+    animation: border-changer 3s ease-in-out infinite;
 }
-
